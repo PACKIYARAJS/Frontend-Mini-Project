@@ -1,0 +1,204 @@
+
+/***Universal***/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif; 
+}
+
+/***Navbar***/
+
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 0px 0px 20px black;
+    background-color: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color : green !important;
+}
+
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid green;
+}
+
+#navbarSupportedContent button{
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+}
+
+/***Section***/
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+/***Home***/
+
+#Home{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.6 )),url(./photos/fresh-vegetables-food.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+}
+
+#Home h1{
+    color: white;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 0px gray,
+                 0px 2px 0px gray,
+                 0px 3px 0px gray,
+                 0px 4px 0px gray,
+                 0px 5px 0px gray,
+                 0px 6px 0px gray,
+                 0px 7px 0px gray; 
+}
+
+#Home p{
+    font-size: 18px;
+    color:white;
+}
+
+#Home .input-group{
+    width: 40%;
+    height: 30px;
+}
+
+#Home .signin{
+    color: white;
+    background-color: green;
+    box-shadow: 3px 4px 5px rgba(0,0,0,.4);
+}
+
+/***Products***/
+
+#Products{
+    background-color: gainsboro;
+}
+
+#Products h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#Products img{
+    width:300px;
+    height:300px;
+}
+
+#Products .card{
+    width:300px;
+    height:400px;
+    background-color: gainsboro !important;
+    border: none;
+    box-shadow: 14px 14px 20px rgba(0,0,0,.5),
+                inset 14px 14px 20px white;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 60px;
+    transition: .5s;
+}
+
+.card .signin{
+    color: white;
+    background-color: green !important;
+}
+
+#Products .card:hover{
+    box-shadow: inset 14px 14px 20px rgba(0,0,0,.5),
+                 4px 4px 10px black;
+transition: .5s;
+}
+
+/***Model***/
+
+#models img{
+    width: 400px;
+    height: 400px;
+}
+
+#models p{
+    color:black;
+    font-size: 20px;
+}
+
+/***About us***/
+
+#Abouts{
+    background-color: green;
+}
+
+#Abouts h1{
+    color: white;
+    font-size:50px;
+    font-weight: 700;
+}
+
+#Abouts p{
+    font-size: 20px;
+    color: white;
+}
+
+/***Contact***/
+
+#Contact{
+    background-color: gainsboro;
+}
+
+#Contact h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#Contact form{
+    text-align: center;
+}
+
+#Contact input{
+    margin: 10px 0px;
+}
+
+#Contact textarea{
+    margin: 10px 0px;
+}
+
+#Contact .send{
+    color:white;
+    background-color: green;
+}
+
+/***Footer***/
+
+footer{
+    width:100%;
+    height:30px;
+    background: black;
+    color: white;
+    text-align: center;
+    
+}
